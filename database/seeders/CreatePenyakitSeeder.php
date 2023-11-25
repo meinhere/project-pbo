@@ -16,41 +16,50 @@ class CreatePenyakitSeeder extends Seeder
     {
         $data = [
             [
-                'nama' => 'Influenza',
+                'nama' => 'Denture Stomatitis',
                 'kode' => 'P001',
-                'penyebab' => 'Secara langsung apabila cipratan air dari mulut (droplet) mengenai orang lain—saat bersin, batuk, atau berbicara. Penularan secara tidak langsung terjadi apabila Anda menyentuh permukaan atau benda yang telah terkontaminasi virus flu, lalu tangan Anda menyentuh mulut dan hidung sehingga virus masuk ke dalam tubuh.'
+                'penyebab' => 'Berbagai faktor yaitu trauma, mikroba faktor sistemik. Trauma adalah bentuk cedera atau kerusakan yang disebabkan oleh mekanis, termal kimia pada jaringan mukosa mulut yang dapat menyebabkan inflamasi. Mikroba yang menyebabkan terjadinya DS adalah jamur dan bakteri.'
             ],
             [
-                'nama' => 'Demam berdarah dengue(DBD)',
+                'nama' => 'Pulpitis Kronis',
                 'kode' => 'P002',
-                'penyebab' => 'Virus dengue masuk ke tubuh manusia melalui gigitan nyamuk Aedes aegypti. Jumlah nyamuk Aedes aegypti biasanya meningkat pada awal musim hujan.'
+                'penyebab' => 'Lapisan enamel dan dentin pelindung pulpa gigi rusak sehingga bakteri masuk dalam jaringan pulpa.'
             ],
             [
-                'nama' => 'Hepatitis',
+                'nama' => 'Sensitive Dentin',
                 'kode' => 'P003',
-                'penyebab' => 'Melalui makanan atau minuman yang tidak bersih, misalnya es batu yang proses pembuatannya terkontaminasi virus hepatitis. Penularan virus hepatitis B dan hepatitis C melalui darah dan cairan tubuh yang terinfeksi; seperti transfusi darah, hubungan seks, pembuatan tato dan tindik, serta injeksi.'
+                'penyebab' => 'Kondisi dentin yang terbuka ini memicu setiap rangsangan, seperti makanan dingin, panas, atau manis mencapai saraf pada gigi. Dengan begitu, gigi akan menjadi lebih sensitif dan bisa menyebabkan rasa tidak nyaman.'
             ],
             [
-                'nama' => 'Malaria',
+                'nama' => 'Plak dan Kalkulus',
                 'kode' => 'P004',
-                'penyebab' => 'Parasit plasmodium dibawa dan disebarkan oleh nyamuk Anopheles yang kemudian menggigit manusia.'
+                'penyebab' => 'Berawal dari sisa-sisa makanan yang menumpuk di gigi hingga sisa makanan ini kemudian berkembang menjadi lapisan tipis dan lengket yang disebut plak. Plak yang dibersihkan dalam waktu yang lama kemudian berubah menjadi kalkulus gigi.'
             ],
             [
-                'nama' => 'Campak',
+                'nama' => 'Abrasi Gigi',
                 'kode' => 'P005',
-                'penyebab' => 'Virus penyebab campak menular melalui percikan air liur penderita saat batuk atau bersin. Selain itu, bisa karena Anda menyentuh benda yang telah terpercik air liur penderita'
+                'penyebab' => 'Menyikat gigi dengan cara yang kurang benar. Sikat gigi yang bertekstur kasar dapat lebih cepat merusak lapisan enamel gigi bila bergesekan dengan gigi secara keras dan terus-menerus. Sering mengonsumsi makanan bertekstur keras, seperti daging, buah-buahan, dan es batu.'
             ],
             [
-                'nama' => 'Tifus',
+                'nama' => 'Gingivitis Akut O/K Plak',
                 'kode' => 'P006',
-                'penyebab' => 'Virus penyebab campak menular melalui percikan air liur penderita saat batuk atau bersin. Selain itu, bisa karena Anda menyentuh benda yang telah terpercik air liur penderita'
+                'penyebab' => 'Yang paling sering terjadi disebabkan oleh plak yang menumpuk dan tidak pernah dibersihkan.'
             ],
             [
-                'nama' => 'Cacingan',
+                'nama' => 'Karies dentin pada permukaan pt & fissure',
                 'kode' => 'P007',
-                'penyebab' => 'Telur cacing dapat masuk melalui kuku dan tangan yang tidak bersih yang kemudian menyentuh mulut atau makanan. Selain itu, cacing juga bisa masuk lewat makanan yang tidak dibersihkan dengan baik sebelum dimasak serta penggunaan barang yang sudah terkontaminasi cacing (handuk, pakaian, atau sprei).'
-            ]
-
+                'penyebab' => 'Makanan yang lengket menempel di gigi seperti gula-gula (permen) dan coklat.'
+            ],
+            [
+                'nama' => 'Impaksi M3',
+                'kode' => 'P008',
+                'penyebab' => 'Tidak tersedianya cukup ruangan pada rahang. Dengan demikian, gigi molar tiga tidak memiliki tempat untuk tumbuh dengan normal.'
+            ],
+            [
+                'nama' => 'Abses Perapikal Dengan Sinus',
+                'kode' => 'P009',
+                'penyebab' => 'Bakteri yang masuk ke pulpa gigi melalui celah atau rongga, sehingga infeksi kemudian dapat menyebar ke ujung akar gigi dan jaringan sekitarnya.'
+            ],
         ];
 
         Penyakit::insert($data);

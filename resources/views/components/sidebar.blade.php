@@ -75,5 +75,4 @@
     @endcan
     
     <hr class="sidebar-divider mb-0">
-
 </ul>
